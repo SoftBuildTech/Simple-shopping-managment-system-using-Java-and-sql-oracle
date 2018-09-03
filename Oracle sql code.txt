@@ -1,0 +1,15 @@
+create table customerinfo(
+username varchar (30),
+mobilenumber varchar (20),
+email varchar (40),
+address varchar (50),
+password varchar (20),
+confirmpassword varchar (20)
+);
+
+create table customerproduct(
+username varchar (30),
+productcode varchar(20),
+quantity number(20),
+Price varchar(20)
+);
